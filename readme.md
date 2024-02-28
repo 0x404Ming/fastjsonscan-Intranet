@@ -2,7 +2,7 @@
 
 # 批量替换 nuclei 模板中的 内置反链 
 
-**就是替换掉了  yaml 中的 {{interactsh-url}} 占位符 **
+**就是替换掉了  yaml 中的 {{interactsh-url}} 占位符**
 
 
 
