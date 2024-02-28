@@ -14,18 +14,20 @@
 
 ![image-20240228211852786](./nuclei_iner.assets/image-20240228211852786.png)
 
-## 脚本使用方法 python Rurl.py ip：端口号
+## 脚本使用方法 
 
- 
+```bash
+python Rurl.py ip：端口号
+``` 
+
+对 http://192.168.0.117:8090 进行内网 fastjson 漏洞检测； -t 指定我们修改后的 yaml 文件夹即可
+
 
 ```bash
 nuclei -u "http://192.168.0.117:8090/"  -t C:\Users\Q\Desktop\fastjson\
 ```
 
-对 http://192.168.0.117:8090 进行内网 fastjson 漏洞检测； -t 指定我们修改后的 yaml 文件夹即可
 如下图可视 反链服务器 token 处有具体哪个 poc 执行成功
-
-
 
 ![image-20240228212130301](./nuclei_iner.assets/image-20240228212130301.png)
 ##  有 go 环境 直接 安装 nuclei
