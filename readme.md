@@ -22,7 +22,8 @@
 nuclei -u "http://192.168.0.117:8090/"  -t C:\Users\Q\Desktop\fastjson\
 ```
 
-对 http://192.168.0.117:8090 进行内网 fastjson 漏洞检测； -t 指定我们修改后的 yaml 文件夹即可;可以看到反链服务器 token 处有具体哪个 poc 执行成功
+对 http://192.168.0.117:8090 进行内网 fastjson 漏洞检测； -t 指定我们修改后的 yaml 文件夹即可
+如下图可视 反链服务器 token 处有具体哪个 poc 执行成功
 
 
 
